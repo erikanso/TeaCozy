@@ -58,32 +58,44 @@ content {
 
 /* Mission */
 
-.mission {
+#mission {
   background-image: url("../resources/images/mission-background.jpg");
+  display: inline-flex;
   height: 700px;
+  text-align: center;
 }
 
 /* Mission */
 
 /* Featured Tea */
 
-.featured-tea {
-  background: black;
+#featured-tea {
+  background: orange;
   width: 1000px;
+  text-align: center;
 }
 
-.photo-box
-{
+.tea-types {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.tea-photo {
+  display: flex;
+  position: relative;
   height: 200px;
   width: 300px;
-  padding: 10px;
+  padding: 10px 15px 5px 15px;
 }
 
 /* Featured Tea */
 
 /* Locations */
 
-.locations {
+#locations {
   background-image: url("../resources/images/locations.jpg");
   height: 500px;
 }
@@ -99,6 +111,7 @@ content {
 /* Footer */
 
 footer {
+  margin: auto;
   height: 200px;
 }
 
