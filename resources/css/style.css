@@ -1,0 +1,23 @@
+
+header {
+  display: flex;
+  background: black;
+  border-bottom: 2px solid white;
+}
+
+.mission {
+  background-image: url("../resources/images/mission-background.jpg");
+}
+
+.featured-tea {
+  background: black;
+}
+
+.locations {
+  background-image: url("../resources/images/locations.jpg");
+}
+
+.copyright p {
+  display: flex;
+  justify-content: flex-start;
+}
