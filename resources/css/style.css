@@ -59,10 +59,22 @@ content {
 /* Mission */
 
 #mission {
-  background-image: url("../resources/images/mission-background.jpg");
+  background-image: url("../images/mission-background.jpg");
+  background-position: center;
   display: inline-flex;
   height: 700px;
   text-align: center;
+}
+
+.mission {
+  background-color: black;
+  display: flex;
+  position: relative;
+  top: 300px;
+  text-align: center;
+  flex-direction: column;
+  line-height: 0;
+  height: 100px;
 }
 
 /* Mission */
@@ -96,14 +108,21 @@ content {
 /* Locations */
 
 #locations {
-  background-image: url("../resources/images/locations.jpg");
+  background-image: url("../images/locations.jpg");
   height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  line-height: 0;
 }
 
-.box {
+.location {
+  display: inline-block;
+  background-color: pink;
   width: 300px;
   opacity: 1;
   margin: 15px 20px;
+  line-height: 2em;
 }
 
 /* Locations */
@@ -113,6 +132,7 @@ content {
 footer {
   margin: auto;
   height: 200px;
+  text-align: center;
 }
 
 .copyright {
