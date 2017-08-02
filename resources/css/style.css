@@ -1,14 +1,24 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+
+/* Header */
+
 header {
   width: 100%;
   height: 69px;
   display: inline-flex;
-  background-color: black;
   border-bottom: 1px solid seashell;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 5;
-  opacity: 0.9;
+  background-color: black;
   justify-content: space-between;
 }
 
@@ -28,8 +38,6 @@ header {
 
 .menu a {
   margin: 0 10px;
-  font-family: Helvetica;
-  font-size: 22px;
   color: seashell;
 }
 
@@ -37,25 +45,61 @@ header {
   color: pink;
 }
 
+/* Header */
+
+/* Content */
+
 content {
   position: relative;
   top: 69px;
 }
 
-p {
+/* Content */
 
-}
+/* Mission */
 
 .mission {
   background-image: url("../resources/images/mission-background.jpg");
+  height: 700px;
 }
+
+/* Mission */
+
+/* Featured Tea */
 
 .featured-tea {
   background: black;
+  width: 1000px;
 }
+
+.photo-box
+{
+  height: 200px;
+  width: 300px;
+  padding: 10px;
+}
+
+/* Featured Tea */
+
+/* Locations */
 
 .locations {
   background-image: url("../resources/images/locations.jpg");
+  height: 500px;
+}
+
+.box {
+  width: 300px;
+  opacity: 1;
+  margin: 15px 20px;
+}
+
+/* Locations */
+
+/* Footer */
+
+footer {
+  height: 200px;
 }
 
 .copyright {
@@ -64,3 +108,5 @@ p {
   position: relative;
   left: 20px;
 }
+
+/* Footer */
