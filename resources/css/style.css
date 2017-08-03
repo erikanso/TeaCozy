@@ -83,7 +83,7 @@ content {
 /* Featured Tea */
 
 #featured-tea {
-  background: orange;
+  background: black;
   width: 1000px;
   flex-direction: column;
   justify-content: center;
@@ -97,11 +97,15 @@ content {
   align-content: center;
 }
 
+.tea-types h4 {
+  line-height: 10px;
+}
+
 .tea-photo {
   position: relative;
   height: 200px;
   width: 300px;
-  padding: 10px 15px 5px 15px;
+  padding: 0 15px;
 }
 
 /* Featured Tea */
@@ -110,9 +114,10 @@ content {
 
 #locations {
   background-image: url("../images/locations.jpg");
-  height: 500px;
-  background-position: center;
+  background-position: top;
+  background-size: cover;
   background-repeat: no-repeat;
+  height: 500px;
   line-height: 0;
 }
 
