@@ -114,11 +114,17 @@ content {
 
 #locations {
   background-image: url("../images/locations.jpg");
-  background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
   height: 500px;
   line-height: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.locations {
+  flex-direction: row;
 }
 
 .location {
@@ -127,7 +133,7 @@ content {
   width: 300px;
   opacity: 1;
   margin: 15px 20px;
-  line-height: 2em;
+  line-height: 15px;
 }
 
 /* Locations */
