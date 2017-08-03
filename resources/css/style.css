@@ -75,9 +75,6 @@ content {
 
 .mission {
   background-color: black;
-  flex-direction: column;
-  line-height: 0;
-  height: 100px;
   width: 1200px;
 }
 
@@ -138,7 +135,7 @@ footer {
 }
 
 .copyright {
-  justify-content: flex-start;
+  align-content: flex-start;
   position: relative;
   left: 20px;
 }
