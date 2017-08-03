@@ -61,20 +61,22 @@ content {
 #mission {
   background-image: url("../images/mission-background.jpg");
   background-position: center;
-  display: inline-flex;
+  background-repeat: no-repeat;
+  display: flex;
   height: 700px;
   text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .mission {
   background-color: black;
   display: flex;
-  position: relative;
-  top: 300px;
   text-align: center;
   flex-direction: column;
   line-height: 0;
   height: 100px;
+  width: 1200px;
 }
 
 /* Mission */
@@ -84,15 +86,19 @@ content {
 #featured-tea {
   background: orange;
   width: 1000px;
+  display: inline-flex;
+  flex-direction: column;
   text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .tea-types {
   flex-wrap: wrap;
   display: flex;
+  text-align: center;
   justify-content: center;
   align-content: center;
-  text-align: center;
 }
 
 .tea-photo {
