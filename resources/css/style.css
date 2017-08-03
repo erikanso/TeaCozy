@@ -22,7 +22,7 @@ header {
   justify-content: space-between;
 }
 
-.logo {
+header img {
   height: 50px;
   display: flex;
   position: relative;
@@ -30,18 +30,18 @@ header {
   top: 8px;
 }
 
-.menu {
+nav {
   display: inline-flex;
   text-decoration: underline;
   align-items: center;
 }
 
-.menu a {
+nav a {
   margin: 0 10px;
   color: seashell;
 }
 
-.menu a:hover {
+nav a:hover {
   color: pink;
 }
 
@@ -118,7 +118,7 @@ content {
 
 .location {
   display: inline-block;
-  background-color: pink;
+  background-color: black;
   width: 300px;
   opacity: 1;
   margin: 15px 20px;
