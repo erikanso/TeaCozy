@@ -83,10 +83,12 @@ content {
 
 #featured-tea {
   background: black;
-  width: 1000px;
+  max-width: 1000px;
+  width: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  display: flex;
 }
 
 .tea-types {
